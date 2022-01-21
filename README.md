@@ -31,5 +31,3 @@ El objetivo del ejercicio es conseguir un sitio web con un formulario en PHP uti
 ## Captura de la página realizada
 
 ![pantalla](/bootstrap-sass-parcel.png)
-
-Noelia Figueiras Fernández | 39488208-Z
