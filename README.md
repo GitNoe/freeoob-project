@@ -23,13 +23,11 @@ El objetivo del ejercicio es conseguir un sitio web con un formulario en PHP uti
     - @import "../node_modules/bootstrap/scss/root";
     - @import "../node_modules/bootstrap/scss/reboot";
     - @import "../node_modules/bootstrap/scss/type";
-    - variables concretas con sus características
+    - variables concretas con sus características y propiedades concretas
 10. Añadido de un layout para el sitio web con recursos de [bootstrap](https://getbootstrap.com/docs/5.1/layout)
-11. Añadido de un formulario con [bootstrap](https://getbootstrap.com/docs/5.1/forms) para mostrar por pantalla y otro con validación incluida y un action.php con el método "post" (esta última parte deja enviar el formulario pero no reproduce los datos por pantalla como era la intención).
-12. Creación de un repositorio de Github para la documentación y envío del proyecto, excluyendo la carpeta de node_modules.
+11. Añadido de un formulario con [bootstrap](https://getbootstrap.com/docs/5.1/forms) para mostrar por pantalla y otro con validación incluida y un action.php con el método "post" (esta última parte deja enviar el formulario pero no reproduce los datos por pantalla como era la intención; sin embargo, abriendo el proyecto desde laragon en vez de localhost sí se ejecuta el php pero los formularios se quedan sin el estilo de bootstrap).
+12. Creación de un repositorio de Github para la documentación y envío del proyecto, excluyendo las carpetas de node_modules y .cache.
 
 ## Captura de la página realizada
 
 ![pantalla](/bootstrap-sass-parcel.png)
-
-Noelia Figueiras Fernández | 39488208-Z
