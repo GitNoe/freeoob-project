@@ -25,18 +25,19 @@ El objetivo del ejercicio es conseguir un sitio web con un formulario en PHP uti
     - @import "../node_modules/bootstrap/scss/type";
     - variables concretas con sus características y propiedades concretas
 10. Añadido de un layout para el sitio web con recursos de [bootstrap](https://getbootstrap.com/docs/5.1/layout)
-11. Añadido de un formulario con [bootstrap](https://getbootstrap.com/docs/5.1/forms) para mostrar por pantalla y otro con validación incluida y un action.php con el método "post" (esta última parte deja enviar el formulario pero no reproduce los datos por pantalla como era la intención; sin embargo, abriendo el proyecto desde laragon en vez de localhost sí se ejecuta el php pero los formularios se quedan sin el estilo de bootstrap).
+11. Añadido de un formulario con [bootstrap](https://getbootstrap.com/docs/5.1/forms) para mostrar por pantalla y otro con validación incluida y un action="texto.php" con el método "post" (esta última parte deja enviar el formulario pero no reproduce los datos por pantalla como era la intención; sin embargo, abriendo el proyecto desde laragon en vez de localhost sí se ejecuta el php pero los formularios se quedan sin el estilo de bootstrap).
 12. Creación de un repositorio de Github para la documentación y envío del proyecto, excluyendo las carpetas de node_modules y .cache.
 
 ## Captura de la página realizada
 
-![pantalla](/bootstrap-sass-parcel.png)
+![pantalla](captures/bootstrap-sass-parcel.png)
 
-24/01 ACTUALIZACIÓN:
+## 24/01 ACTUALIZACIÓN
+
 Líneas de package.json para añadir:
 
-"build": "parcel build src/index.html src/js/app.js src/css/custom.scss src/assets/* --public-url . -d build/",
-"dev": "parcel src/index.html src/js/validation.js scss/style.scss src/assets/*",
+- "build": "parcel build src/index.html src/js/app.js src/css/custom.scss src/assets/* --public-url . -d build/",
+- "dev": "parcel src/index.html src/js/validation.js scss/style.scss src/assets/*",
 
 En terminal corremos: npm run-script build -> y se construye la carpeta
 
@@ -48,4 +49,8 @@ También añadimos las dependencias:
 
 Con estos últimos pasos conseguimos que el formulario se imprima en una nueva pantalla generada por texto.php, como se ve en la siguiente imagen:
 
-![captura](resultados-php.png)
+![captura](captures/resultados-php.png)
+
+Además, ahora sí se ha incluido en el archivo php una función de validación del método post, como se puede ver aquí:
+
+![php](captures/captura-php.png)
