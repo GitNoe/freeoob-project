@@ -32,25 +32,25 @@ El objetivo del ejercicio es conseguir un sitio web con un formulario en PHP uti
 
 ![pantalla](captures/bootstrap-sass-parcel.png)
 
-## 24/01 ACTUALIZACIÓN
+## ACTUALIZACIONES
 
 Líneas de package.json para añadir:
 
 - "build": "parcel build src/index.html src/js/app.js src/css/custom.scss src/assets/* --public-url . -d build/",
 - "dev": "parcel src/index.html src/js/validation.js scss/style.scss src/assets/*",
 
-En terminal corremos: npm run-script build -> y se construye la carpeta
+En terminal corremos: npm run-script build -> y se construye la carpeta build
 
 También añadimos las dependencias:
 
 - npm install bootstrap-icons
-- npm install nodemon
-- npm install node-sass
+- npm install --save-dev nodemon
+- npm install --save-dev node-sass
 
-Con estos últimos pasos conseguimos que el formulario se imprima en una nueva pantalla generada por texto.php, como se ve en la siguiente imagen:
+Con estos últimos pasos conseguimos que los inputs del formulario se impriman en una nueva pantalla generada por texto.php, como se ve en la siguiente imagen:
 
 ![captura](captures/resultados-php.png)
 
-Además, ahora sí se ha incluido en el archivo php una función de validación del método post, como se puede ver aquí:
+Además, ahora se ha incluido en el archivo php una función de validación del método post, como se puede ver aquí:
 
 ![php](captures/captura-php.png)
