@@ -31,3 +31,18 @@ El objetivo del ejercicio es conseguir un sitio web con un formulario en PHP uti
 ## Captura de la página realizada
 
 ![pantalla](/bootstrap-sass-parcel.png)
+
+24/01 UPDATE:
+Líneas de package.json para añadir:
+
+(PREVIA "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build",)
+COPIADA "build": "parcel build src/index.html src/js/app.js src/css/custom.scss src/assets/* --public-url . -d build/",
+COPIADA "dev": "parcel src/index.html src/js/validation.js scss/style.scss src/assets/*",
+
+en terminal: npm run-script build - se construye la carpeta
+
+También añadir dependencias:
+
+- npm install bootstrap-icons
+- npm install nodemon
+- npm install node-sass
