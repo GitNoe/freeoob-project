@@ -46,3 +46,5 @@ También añadir dependencias:
 - npm install bootstrap-icons
 - npm install nodemon
 - npm install node-sass
+
+Con estos últimos pasos conseguimos que el formulario se imprima en una nueva pantalla generada por texto.php
